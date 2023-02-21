@@ -1,0 +1,39 @@
+.tapete{
+    background-color:green;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    
+}
+
+.tapete .cubilete{
+    transition: scale 0.3s ease-in-out;
+}
+
+.tapete .cubilete:hover{
+    scale:1.1;
+}
+
+.mensaje{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+.mensaje span{
+    font-size:28px;
+}
+
+.mensaje span.acierto{
+    color:green;
+}
+
+.mensaje span.fallo{
+    color:red;
+}
+
+.mensaje a{
+    text-decoration: none;
+}
